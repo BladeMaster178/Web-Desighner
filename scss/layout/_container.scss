@@ -1,0 +1,80 @@
+.text {
+  text-align: center;
+  color: white;
+}
+
+.text1 {
+  font-size: 150%;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+.rotate {
+  transform: rotate(180deg);
+}
+
+.container4 {
+  display: grid;
+  grid-gap: 4em;
+  justify-content: center;
+  //grid-template-columns: 300px 300px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 200px));
+}
+.container3 {
+  display: grid;
+  grid-gap: 4em;
+  justify-content: center;
+  grid-template-columns: 850px;
+  //  grid-template-columns: repeat(auto-fit, minmax(250px, 200px));
+}
+.container2 {
+  display: grid;
+  grid-gap: 4em;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.e {
+  padding-left: 20px;
+}
+
+.carousel-fade .carousel-item,
+.carousel-item img {
+  max-height: 100vh;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.centered {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
