@@ -45,7 +45,7 @@ a:visited {
   display: grid;
   grid-gap: 4em;
   justify-content: center;
-  grid-template-columns: 850px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .container2 {
